@@ -22,7 +22,7 @@ class ProductView extends View {
       <img width="220" src="${item.image}" alt="${item.title}">
       <div class="details">
           <h3>${item.title}</h3>
-          <p>${item.description}</p>
+          <p>${`${item.description.slice(0, 75)}...`}</p>
           <div class="price-quantity">
           <h2>${item.price.toFixed(2)} €</h2>
           <div class="buttons">
