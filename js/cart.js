@@ -1,5 +1,5 @@
 import * as model from "./model.js";
-import cartView from "./cartView.js";
+import cartView from "./views/cartView.js";
 
 let shoppingCart = document.getElementById("shopping-cart");
 

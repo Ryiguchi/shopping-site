@@ -1,6 +1,6 @@
 "use strict";
 import * as model from "./model.js";
-import productView from "./productView.js";
+import productView from "./views/productView.js";
 
 let basket = JSON.parse(localStorage.getItem("data")) || [];
 
